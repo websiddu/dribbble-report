@@ -1,0 +1,65 @@
+body {
+  font-family: Lora;
+  font-size: 18px;
+  line-height: 1.6;
+  position: relative;
+}
+
+p {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+ul, ol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  ol, ul {
+    margin-bottom: 20px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+video {
+  max-width: 100%;
+}
+
+.player {
+  margin: 20px 0;
+}
+
+img {
+  box-shadow: 0 0 10px #eee;
+  max-width: 100%;
+  margin: 20px 0;
+  &.ns {
+    box-shadow: none;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.main-cont {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  > h1, > p, > h2, > ul, > ol , > .player{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.shadow {
+  img {
+    box-shadow: 0 0 10px #DCDCDC;
+  }
+}
