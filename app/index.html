@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>EventChimp</title>
+  <title>Dribbble</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -31,13 +31,266 @@
           <br>
           <h1> Dribbble Team </h1>
           <p>How could we change the design of the Dribbble teams page to give teams their own identity within the product and to separate it from the individual page design?</p>
+          <h2>Requirement</h2>
+          <p> Here is what requested by the customers</p>
+          <ul>
+            <li> Better way to brand their teams </li>
+            <li> Should be different from normal user profiles</li>
+            <li> Highlight team remembers</li>
+            <li> Also, highlight on who worked on which project </li>
+          </ul>
+          <h2>Research</h2>
+          <p>
+          </p>
+          <ul>
+            <li>We know that 60% of posts are work done on behalf of a team or company, but are posted to an individuals account.</li>
+            <li>Based on user research, we have observed that other users are unclear who actually worked on a specific post within a teams page.</li>
+            <li>40% of teams have not uploaded their avatar, and thus we do not expect them to customize their page beyond the default.</li>
+            <li>Based on user research, we have observed that users don’t understand if the team they are looking at is a large team with many members, or a small team with few members.</li>
+          </ul>
+          <h2>Discovery</h2>
+          <p>Making informed decision is a key for creating a successful design solution. Below, I have written my thought process and ideas on how I have tried to approach this problem with a simple yet effective solution.</p>
+          <p>
+            <img srcset="images/r/question.png 2x, images/r/question.png 1x"  alt="">
+          </p>
+          <h2>Current design</h2>
+          <p>To begin with, I analyzed the current dribbble page design. This gave a chance to validate the customer requirement and also research findings. Here is what I found, </p>
+          <div class="row">
+            <div class="col-lg-5">
+              <a href="images/r/iphone.png" class="img-link">
+                <img srcset="images/r/iphone.png 2x, images/r/iphone.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-7">
+              <a href="images/r/ipad.png" class="img-link">
+                <img srcset="images/r/ipad.png 2x, images/r/ipad.png 1x" alt="" class="ns">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="images/r/imac.png" class="img-link">
+                <img srcset="images/r/imac.png 2x, images/r/imac.png 1x" alt="" class="ns">
+              </a>
+            </div>
+          </div>
+          <p>
+            As you can see in the above picture there were many inconsistencies, pitfalls and confusions in the current team design.
+          </p>
+          <h2>Constraints &amp; Assumptions</h2>
+          <p>
+            Though it seems a short design exercise there were many factors to consider and requires a deep understand of the product. For this particular exercise, I made some reasonable assumptions based on the constraints. Here are some of them,
+          </p>
+          <ul>
+            <li> Design should blend in with the current dribbble design. Team page should not feel like its disconnected from other pages. </li>
+            <li> Should follow branding guidelines. </li>
+            <li> Should be responsive.</li>
+            <li> Highlight team members.</li>
+            <li> Minimum/No effort is expected from the teams.</li>
+            <li> Are teams interested in stats on their team pages? (Unknown)</li>
+            <li> Time is a constraint (3 - 5 hours).</li>
+          </ul>
+          <h2>Ideation</h2>
+          <p>
+            There were multiple issues to address based on the research and initial website evaluation. I addressed each of them below
+          </p>
+          <p>
+            <ol>
+              <li>
+                <strong>Team: </strong>
+                <br>
+                In current design the team members are displayed as a list of images and only 15 members of the team. And, I'm not sure how these users are picked. And the total number of users are listed on the top menu.
+              </li>
+              <li>
+                <strong>Team shots vs Personal Shots: </strong>
+                <br>
+                In current design, it's kind of tedious to find out who is responsible for the design.
+              </li>
+              <li>
+                <strong>Branding: </strong>
+                <br>
+                Currently, there is not way that a team can brand themselves. This can be done using multiple options.
+                  <ol>
+                    <li>Using cover pictures. </li>
+                    <li>Changing the link colors to brand colors. </li>
+                  </ol>
+              </li>
+              <li>
+                <strong>Projects: </strong>
+                <br>
+                Projects are created by teams and each project can contain multiple related shots. Currently there is less stress on this. Even popular teams don't post projects.
+              </li>
+            </ol>
+          </p>
+          <h2>Options</h2>
+          <p>
+            Some design ideas,
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="images/o/1.png" class='img-link'>
+                <img srcset="images/o/1.png 2x, images/o/1.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <br><br>
+              <ul>
+                <li>
+                  + Banner image enables the team to express their brands.
+                </li>
+                <li>
+                  + Easy to understand if the team is big or small
+                </li>
 
+              </ul>
+              <hr>
+              <ul>
+                <li>
+                  - Can't scale when there are a ton of users
+                </li>
+                <li>
+                  - More work on the teams
+                </li>
+                <li>
+                  - Not sure if the shot is from the team or personal
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="images/o/2.png" class='img-link'>
+                <img srcset="images/o/2.png 2x, images/o/2.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <br><br>
+              <ul>
+                <li>
+                  + Creates a clear difference between team pages and individual pages.
+                </li>
+                <li>
+                  + Clear indication of members
+                </li>
+                <li>
+                  + Good priority to the skills.
+                </li>
+                <li>
+                  + Good hierarchy of content.
+                </li>
+              </ul>
+              <hr>
+              <ul>
+                <li>
+                  - Breaks the consistency
+                </li>
+                <li>
+                  - Two scrollbars on the page can be inconvenient
+                </li>
+                <li>
+                  - Less branding options for the teams
+                </li>
+              </ul>
 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="images/o/3.png" class='img-link'>
+                <img srcset="images/o/3.png 2x, images/o/3.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <br><br>
+              <ul>
+                <li> + Easy to understand who worked on with project.</li>
+                <li> + Good use of negative space.</li>
+              </ul>
+              <hr>
+              <ul>
+                <li> - Members of the team are not being highlighted.</li>
+                <li> - Very few options for branding. </li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="images/o/4.png" class='img-link'>
+                <img srcset="images/o/4.png 2x, images/o/4.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <br><br>
+              <ul>
+                <li> + Banner image enables the team to express their brands.</li>
+                <li> + Detailed members lists. </li>
+                <li> + Clear difference between members and shots.</li>
+              </ul>
+              <hr>
+              <ul>
+                <li> - If the members list is long, there are chances that the list will be longer than shots.</li>
+                <li> - Skills are kind of buried down.</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="images/o/5.png" class='img-link'>
+                <img srcset="images/o/5.png 2x, images/o/5.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <br><br>
+              <ul>
+                <li>+ Banner can be auto generated</li>
+                <li>+ Less effort expected from the teams</li>
+                <li>+ Members are can scale to any number</li>
+              </ul>
+              <hr>
+              <ul>
+                <li>- Can be too busy and clumsy </li>
+              </ul>
+
+            </div>
+          </div>
+          <h2> Banner variations</h2>
+          <div class="row">
+
+            <div class="col-lg-12">
+              <a href="images/r/header.png" class='img-link'>
+                <img srcset="images/r/header.png 2x, images/r/header.png 1x" alt="" class="ns">
+              </a>
+            </div>
+            <div class="col-lg-6"></div>
+          </div>
+          <h2>Design</h2>
+          <div class="row">
+            <div class="col-lg-12">
+              <h3>Version 1 </h3>
+              <a href="images/p/v1.png" class='img-link'>
+                <img srcset="images/p/v1.png 2x, images/p/v1.png 1x" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h3>Version 2 </h3>
+              <a href="images/p/v2.png" class='img-link'>
+                <img srcset="images/p/v2.png 2x, images/p/v2.png 1x" alt="">
+              </a>
+            </div>
+          </div>
+          <h2>Mobile Screens</h2>
+          <h2>Hi-fi Prototype</h2>
+          <p>
+          </p>
         </div>
       </div>
     </div>
   </div>
-
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
   <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -67,16 +320,22 @@
   <script src="scripts/main.js"></script>
   <!-- endbuild -->
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-55363605-5', 'auto');
   ga('send', 'pageview');
-
-</script>
+  </script>
 </body>
 
 </html>

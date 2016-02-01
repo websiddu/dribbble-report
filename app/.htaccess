@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Password Protected Area"
-AuthUserFile /home2/kkcircui/public_html/myworks/gd/.htpasswd
-
-Require valid-user

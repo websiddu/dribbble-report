@@ -12,7 +12,7 @@
     // _splitPage();
     // _getContent();
     // _makeSlide();
-    _setupPlyr();
+    // _setupPlyr();
     // _initWayPoints();
     // _initilizeReveal();
     _popUp();
@@ -21,13 +21,13 @@
     // _toggleComments();
 
     // _getFlow();
-    _showFlowImages();
-     $('[data-toggle="popover"]').popover({
-      viewport: {
-        selector: 'body',
-        padding: 0
-      }
-     })
+    // _showFlowImages();
+     // $('[data-toggle="popover"]').popover({
+     //  viewport: {
+     //    selector: 'body',
+     //    padding: 0
+     //  }
+     // })
   }
 
   var _showFlowImages = function() {
