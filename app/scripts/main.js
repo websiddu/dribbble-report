@@ -22,12 +22,12 @@
 
     // _getFlow();
     // _showFlowImages();
-     // $('[data-toggle="popover"]').popover({
-     //  viewport: {
-     //    selector: 'body',
-     //    padding: 0
-     //  }
-     // })
+     $('[data-toggle="popover"]').popover({
+      viewport: {
+        selector: 'body',
+        padding: 0
+      }
+     })
   }
 
   var _showFlowImages = function() {
